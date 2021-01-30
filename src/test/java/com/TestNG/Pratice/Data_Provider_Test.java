@@ -12,7 +12,7 @@ public class Data_Provider_Test {
 		System.out.println("password:" + password);
 
 	}
-
+//k
 	@DataProvider
 	private Object[][] test_Data() {
 		return new Object[][] { { "Gowthami", 123 }, { "karthik", 456 }, { "Dharsha", 789 }

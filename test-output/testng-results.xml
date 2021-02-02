@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="92" started-at="2021-02-02T11:28:08 IST" finished-at="2021-02-02T11:28:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="92" started-at="2021-02-02T11:28:08 IST" finished-at="2021-02-02T11:28:08 IST">
+      <class name="com.TestNG.Pratice.Dependency_Test">
+        <test-method status="PASS" signature="laptopsearch()[pri:0, instance:com.TestNG.Pratice.Dependency_Test@578486a3]" name="laptopsearch" duration-ms="12" started-at="2021-02-02T11:28:08 IST" finished-at="2021-02-02T11:28:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laptopsearch -->
+        <test-method status="PASS" signature="mobilesearch()[pri:0, instance:com.TestNG.Pratice.Dependency_Test@578486a3]" name="mobilesearch" duration-ms="3" started-at="2021-02-02T11:28:08 IST" finished-at="2021-02-02T11:28:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilesearch -->
+        <test-method status="PASS" signature="samsungSearch()[pri:0, instance:com.TestNG.Pratice.Dependency_Test@578486a3]" name="samsungSearch" duration-ms="2" started-at="2021-02-02T11:28:08 IST" finished-at="2021-02-02T11:28:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samsungSearch -->
+        <test-method status="PASS" signature="offer()[pri:0, instance:com.TestNG.Pratice.Dependency_Test@578486a3]" name="offer" duration-ms="2" started-at="2021-02-02T11:28:08 IST" depends-on-methods="com.TestNG.Pratice.Dependency_Test.laptopsearch" finished-at="2021-02-02T11:28:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- offer -->
+      </class> <!-- com.TestNG.Pratice.Dependency_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
